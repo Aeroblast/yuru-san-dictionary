@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+  <metadata>
+    <dc:title>许先生日中塞翻易错词典</dc:title>
+    <dc:language>zh-CN</dc:language>
+    <dc:identifier id="BookId">xxxxxxxxx</dc:identifier>
+    <x-metadata>
+      <DictionaryInLanguage>ja</DictionaryInLanguage>
+      <DictionaryOutLanguage>zh-CN</DictionaryOutLanguage>
+      <DefaultLookupIndex>Japanese</DefaultLookupIndex>
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item id="cover"
+          href="cover.xhtml"
+          media-type="application/xhtml+xml" />
+    <item id="copyright"
+          href="copyright.xhtml"
+          media-type="application/xhtml+xml" />
+    <item id="usage"
+          href="usage.xhtml"
+          media-type="application/xhtml+xml" />
+    <item id="content"
+          href="content.xhtml"
+          media-type="application/xhtml+xml" />
+  </manifest>
+  <spine>
+    <itemref idref="cover"/>
+    <itemref idref="copyright"/>
+    <itemref idref="usage"/>
+    <itemref idref="content"/>
+  </spine>
+</package>
